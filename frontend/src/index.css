@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@media print {
+  html,
+  body {
+    width: 80mm;
+    overflow: hidden;
+  }
+
+  @page {
+    size: 80mm auto;
+    margin: 0;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  #thermal-receipt,
+  #thermal-receipt * {
+    visibility: visible !important;
+  }
+
+  #thermal-receipt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80mm;
+    padding: 0;
+    margin: 0;
+  }
+}
