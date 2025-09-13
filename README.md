@@ -1,4 +1,4 @@
-# MK Sales and Order management System
+# Can Sales and Order management System
 
 A full-stack sales and order management system built for a freelance client, the system will be used to manage sales for a nightclub business, supporting fast order placement, sales analytics, category/product management, and receipt printing.
 
